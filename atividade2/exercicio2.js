@@ -1,20 +1,18 @@
-matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-transposeMatriz = []
-
-let pos = 0
-
-for (let linhas in matriz) {
-    let linha = matriz[linhas]
-    let nova_linha = []
-    for (let index = 0; index < linha.length; index++) {
-        nova_linha.push(matriz[index][pos])
+function transposeMatriz(matriz) {
+    let transMatriz = []
+    for (let len = 0; len < matriz[0].length; len++) {
+        let nlinha = []
+        for (const linha of matriz) nlinha.push(linha[len]) 
+        transMatriz.push(nlinha)
     }
-    transposeMatriz.push(nova_linha)
-    pos++;
+
+    return transMatriz
 }
 
-console.log(transposeMatriz)
+
+let matriz = [
+    [1, 2, 3, 4],
+    [4, 5, 6, 6],
+    [7, 8, 9, 91]
+]
+console.log(transposeMatriz(matriz))
