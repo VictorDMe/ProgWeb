@@ -1,5 +1,9 @@
 function multMatriz(ma, mb) {
     let resultMatriz = []
+
+    if (ma.length != mb.length)
+        console.log("Não é possível calcular")
+
     for (let len = 0; len < ma[0].length; len++) {
         let tmp_m = []
 
