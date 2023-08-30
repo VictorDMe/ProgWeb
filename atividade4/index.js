@@ -7,8 +7,8 @@ const PORT = 8080;
 app.get("/somar/:a/:b", (req, res) => {
     let a = req.params.a;
     let b = req.params.b;
-    console.log('Requisição de soma realizada.');
     
+    console.log('Requisição de soma realizada.');
     res.send(`${a} + ${b} = ${calc.somar(a, b)}`);
 })
 
