@@ -1,4 +1,4 @@
-# Progamação Web
+# Programação Web
 
 Repositório criado para entrega das atividades propostas pela disciplina de Programação Web. 
 
