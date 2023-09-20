@@ -10,3 +10,4 @@ Repositório criado para entrega das atividades propostas pela disciplina de Pro
 | Atividade 2 |   🆗    |
 | Atividade 3 |   🆗    |
 | Atividade 4 |   🆗    |
+| Atividade 5 |   🆗    |
